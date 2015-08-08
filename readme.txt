@@ -3,8 +3,8 @@ Contributors: https://profiles.wordpress.org/stephanelion
 Donate link: http://onliste.com
 Tags: recherche, multi-champs, champs, personnalisés, caractéristique
 Requires at least: 4.1
-Tested up to: 4.2
-Stable tag: trunk
+Tested up to: 4.3
+Stable tag: 4.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,11 +31,13 @@ Pour installer le plugin:
 == Screenshots ==
 
 1. Administration du plugin
+2. Vos visiteurs peuvent effectuer une recherche d'articles ou de pages via vos champs personnalisés
+3. Afficher vos champs personnalisés dans vos articles et vos pages.
 
 == Changelog ==
 
 = 0.2 =
-Améliorations de la sécurité du code
+Améliorations de sécurité.
 
 = 0.1 =
-Première version du plugin
+Première version du plugin.
