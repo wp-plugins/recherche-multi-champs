@@ -17,6 +17,7 @@ Boostez les champs personnalisés de Wordpress avec ce plugin:
 - Activez simplement le widget pour permettre aux visiteurs de votre site d'effectuer une recherche sur vos champs
 - Customisez l'affiche du résultat de la recherche dans les options du plugin
 - Insérez le shortcode dans votre contenu pour afficher les champs
+- Insérer un formulaire de recherche dans vos pages ou articles
 
 
 == Installation ==
@@ -35,6 +36,9 @@ Pour installer le plugin:
 3. Afficher vos champs personnalisés dans vos articles et vos pages.
 
 == Changelog ==
+
+= 0.3 =
+Ajout du shortcode [rmc_search_shortcode] pour insérer le formulaire de recherche dans un article ou une page.
 
 = 0.2 =
 Améliorations de sécurité.
