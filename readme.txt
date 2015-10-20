@@ -37,6 +37,9 @@ Pour installer le plugin:
 
 == Changelog ==
 
+= 0.4 =
+Ajout du paramètre "size" pour le shortcode [rmc_search_shortcode] qui permet de spécifier la taille du formulaire en pixel ou pourcentage.
+
 = 0.3 =
 Ajout du shortcode [rmc_search_shortcode] pour insérer le formulaire de recherche dans un article ou une page.
 
