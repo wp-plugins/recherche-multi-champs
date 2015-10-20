@@ -1,9 +1,9 @@
-<?php
+﻿<?php
 /*
 Plugin Name: Recherche Multi-Champs
 Plugin URI: http://onliste.com/news/plugin-wordpress-recherche-multi-champs/
 Description: Créer vos propres champs pour vos articles/pages et proposer une recherche basée sur ces champs à vos visiteurs.
-Version: 0.3
+Version: 0.4
 Author: Stéphane Lion
 Author URI: http://onliste.com/news/presentation-du-webmaster/
 */
@@ -78,7 +78,7 @@ function rmc_process_action(){
 
 function rmc_menu_html(){
 	echo "<br><br><i><font color=red>IMPORTANT : Pour visualiser les champs lors de la création de vos articles ou pages, pensez à afficher les \"champs personnalisés\" dans \"Options de l'écran\" (En haut de la page lorsque vous rédigez votre article ou votre page)</font></i>";
-    echo "<br><br><b>Pour bien démarrer :</b><br> - Créez les champs sur cette page<br> - Activez le widget<br> - Remplissez les champs dans vos articles / pages<br> - Insérez le shortcode [rmc_shortcode] à l'endroit où vous voulez afficher les champs<br> - Insérez le shortcode [rmc_search_shortcode] à l'endroit où vous voulez inclure le formulaire de recherche";
+    echo "<br><br><b>Pour bien démarrer :</b><br> - Créez les champs sur cette page<br> - Activez le widget<br> - Remplissez les champs dans vos articles / pages<br> - Insérez le shortcode [rmc_shortcode] à l'endroit où vous voulez afficher les champs<br> - Insérez le shortcode [rmc_search_shortcode] à l'endroit où vous voulez inclure le formulaire de recherche. Pour choisir la taille du formulaire vous pouvez utiliser le paramètre size comme dans ces exemples : [rmc_search_shortcode size='50%'] ou [rmc_search_shortcode size='250px']";
 	echo '<h1>'.get_admin_page_title().'</h1>';
     echo '<hr><p><b>Liste des champs: </b><form method="post" action=""><input type="hidden" name="supprimer_champs" value="1"/>';
 	global $wpdb;
